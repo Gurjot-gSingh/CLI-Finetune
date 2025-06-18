@@ -17,6 +17,7 @@ This project was built as part of the AI/ML Internship Technical Task for **Fenr
 ---
 
 ## 🗂️ Project Structure
+```text
 project-root/
 ├── agent.py # CLI agent interface
 ├── data/
@@ -32,7 +33,7 @@ project-root/
 ├── README.md # This file
 ├── requirements.txt # All dependencies
 
-
+```
 ---
 
 ## ⚙️ Setup Instructions
