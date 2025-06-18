@@ -1,0 +1,602 @@
+[
+  {
+    "instruction": "How to initialize a new Git repository?",
+    "output": "Use the command: git init"
+  },
+  {
+    "instruction": "How to check the status of files?",
+    "output": "Use the command: git status"
+  },
+  {
+    "instruction": "How to stage changes for commit?",
+    "output": "Use the command: git add <file>"
+  },
+  {
+    "instruction": "How to commit staged changes?",
+    "output": "Use the command: git commit -m 'message'"
+  },
+  {
+    "instruction": "How to create a new branch?",
+    "output": "Use the command: git branch <branch-name>"
+  },
+  {
+    "instruction": "How to switch branches?",
+    "output": "Use the command: git checkout <branch-name>"
+  },
+  {
+    "instruction": "How to push changes to origin?",
+    "output": "Use the command: git push origin <branch>"
+  },
+  {
+    "instruction": "How to pull changes from origin?",
+    "output": "Use the command: git pull origin <branch>"
+  },
+  {
+    "instruction": "How to see the commit history?",
+    "output": "Use the command: git log"
+  },
+  {
+    "instruction": "How to undo the last commit?",
+    "output": "Use the command: git reset --soft HEAD~1"
+  },
+  {
+    "instruction": "How to list all files?",
+    "output": "Use the command: ls"
+  },
+  {
+    "instruction": "How to list hidden files?",
+    "output": "Use the command: ls -a"
+  },
+  {
+    "instruction": "How to copy a file?",
+    "output": "Use the command: cp source.txt dest.txt"
+  },
+  {
+    "instruction": "How to move a file?",
+    "output": "Use the command: mv file.txt folder/"
+  },
+  {
+    "instruction": "How to delete a file?",
+    "output": "Use the command: rm file.txt"
+  },
+  {
+    "instruction": "How to create a directory?",
+    "output": "Use the command: mkdir folder"
+  },
+  {
+    "instruction": "How to remove a directory recursively?",
+    "output": "Use the command: rm -r folder"
+  },
+  {
+    "instruction": "How to view current directory?",
+    "output": "Use the command: pwd"
+  },
+  {
+    "instruction": "How to change directory?",
+    "output": "Use the command: cd folder"
+  },
+  {
+    "instruction": "How to chain multiple commands?",
+    "output": "Use the command: command1 && command2"
+  },
+  {
+    "instruction": "How to search a pattern in a file?",
+    "output": "Use the command: grep 'pattern' file.txt"
+  },
+  {
+    "instruction": "How to search recursively?",
+    "output": "Use the command: grep -r 'pattern' ."
+  },
+  {
+    "instruction": "How to ignore case in search?",
+    "output": "Use the command: grep -i 'pattern' file.txt"
+  },
+  {
+    "instruction": "How to show line numbers in results?",
+    "output": "Use the command: grep -n 'pattern' file.txt"
+  },
+  {
+    "instruction": "How to search only whole words?",
+    "output": "Use the command: grep -w 'pattern' file.txt"
+  },
+  {
+    "instruction": "How to compress a folder with tar?",
+    "output": "Use the command: tar -czf archive.tar.gz folder/"
+  },
+  {
+    "instruction": "How to extract a tar.gz file?",
+    "output": "Use the command: tar -xzf archive.tar.gz"
+  },
+  {
+    "instruction": "How to list contents of tar?",
+    "output": "Use the command: tar -tf archive.tar.gz"
+  },
+  {
+    "instruction": "How to extract to a specific directory?",
+    "output": "Use the command: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "How to create a Python virtual environment?",
+    "output": "Use the command: python -m venv env"
+  },
+  {
+    "instruction": "How to activate venv on Linux?",
+    "output": "Use the command: source env/bin/activate"
+  },
+  {
+    "instruction": "How to activate venv on Windows?",
+    "output": "Use the command: env\\Scripts\\activate"
+  },
+  {
+    "instruction": "How to deactivate a virtual environment?",
+    "output": "Use the command: deactivate"
+  },
+  {
+    "instruction": "How to check Python version?",
+    "output": "Use the command: python --version"
+  },
+  {
+    "instruction": "What's the way to search only whole words?",
+    "output": "You can use: grep -w 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to pull changes from origin?",
+    "output": "You can use: git pull origin <branch>"
+  },
+  {
+    "instruction": "What's the way to list hidden files?",
+    "output": "You can use: ls -a"
+  },
+  {
+    "instruction": "What's the way to initialize a new Git repository?",
+    "output": "You can use: git init"
+  },
+  {
+    "instruction": "What's the way to activate venv on Windows?",
+    "output": "You can use: env\\Scripts\\activate"
+  },
+  {
+    "instruction": "What's the way to compress a folder with tar?",
+    "output": "You can use: tar -czf archive.tar.gz folder/"
+  },
+  {
+    "instruction": "What's the way to create a Python virtual environment?",
+    "output": "You can use: python -m venv env"
+  },
+  {
+    "instruction": "What's the way to delete a file?",
+    "output": "You can use: rm file.txt"
+  },
+  {
+    "instruction": "What's the way to change directory?",
+    "output": "You can use: cd folder"
+  },
+  {
+    "instruction": "What's the way to move a file?",
+    "output": "You can use: mv file.txt folder/"
+  },
+  {
+    "instruction": "What's the way to change directory?",
+    "output": "You can use: cd folder"
+  },
+  {
+    "instruction": "What's the way to extract a tar.gz file?",
+    "output": "You can use: tar -xzf archive.tar.gz"
+  },
+  {
+    "instruction": "What's the way to show line numbers in results?",
+    "output": "You can use: grep -n 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to extract to a specific directory?",
+    "output": "You can use: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "What's the way to extract to a specific directory?",
+    "output": "You can use: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "What's the way to extract to a specific directory?",
+    "output": "You can use: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "What's the way to delete a file?",
+    "output": "You can use: rm file.txt"
+  },
+  {
+    "instruction": "What's the way to deactivate a virtual environment?",
+    "output": "You can use: deactivate"
+  },
+  {
+    "instruction": "What's the way to activate venv on Linux?",
+    "output": "You can use: source env/bin/activate"
+  },
+  {
+    "instruction": "What's the way to show line numbers in results?",
+    "output": "You can use: grep -n 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to activate venv on Linux?",
+    "output": "You can use: source env/bin/activate"
+  },
+  {
+    "instruction": "What's the way to create a Python virtual environment?",
+    "output": "You can use: python -m venv env"
+  },
+  {
+    "instruction": "What's the way to search recursively?",
+    "output": "You can use: grep -r 'pattern' ."
+  },
+  {
+    "instruction": "What's the way to list contents of tar?",
+    "output": "You can use: tar -tf archive.tar.gz"
+  },
+  {
+    "instruction": "What's the way to copy a file?",
+    "output": "You can use: cp source.txt dest.txt"
+  },
+  {
+    "instruction": "What's the way to deactivate a virtual environment?",
+    "output": "You can use: deactivate"
+  },
+  {
+    "instruction": "What's the way to compress a folder with tar?",
+    "output": "You can use: tar -czf archive.tar.gz folder/"
+  },
+  {
+    "instruction": "What's the way to remove a directory recursively?",
+    "output": "You can use: rm -r folder"
+  },
+  {
+    "instruction": "What's the way to activate venv on Windows?",
+    "output": "You can use: env\\Scripts\\activate"
+  },
+  {
+    "instruction": "What's the way to compress a folder with tar?",
+    "output": "You can use: tar -czf archive.tar.gz folder/"
+  },
+  {
+    "instruction": "What's the way to commit staged changes?",
+    "output": "You can use: git commit -m 'message'"
+  },
+  {
+    "instruction": "What's the way to list hidden files?",
+    "output": "You can use: ls -a"
+  },
+  {
+    "instruction": "What's the way to activate venv on Linux?",
+    "output": "You can use: source env/bin/activate"
+  },
+  {
+    "instruction": "What's the way to remove a directory recursively?",
+    "output": "You can use: rm -r folder"
+  },
+  {
+    "instruction": "What's the way to commit staged changes?",
+    "output": "You can use: git commit -m 'message'"
+  },
+  {
+    "instruction": "What's the way to search a pattern in a file?",
+    "output": "You can use: grep 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to ignore case in search?",
+    "output": "You can use: grep -i 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to create a Python virtual environment?",
+    "output": "You can use: python -m venv env"
+  },
+  {
+    "instruction": "What's the way to list all files?",
+    "output": "You can use: ls"
+  },
+  {
+    "instruction": "What's the way to deactivate a virtual environment?",
+    "output": "You can use: deactivate"
+  },
+  {
+    "instruction": "What's the way to create a directory?",
+    "output": "You can use: mkdir folder"
+  },
+  {
+    "instruction": "What's the way to change directory?",
+    "output": "You can use: cd folder"
+  },
+  {
+    "instruction": "What's the way to show line numbers in results?",
+    "output": "You can use: grep -n 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to list hidden files?",
+    "output": "You can use: ls -a"
+  },
+  {
+    "instruction": "What's the way to pull changes from origin?",
+    "output": "You can use: git pull origin <branch>"
+  },
+  {
+    "instruction": "What's the way to compress a folder with tar?",
+    "output": "You can use: tar -czf archive.tar.gz folder/"
+  },
+  {
+    "instruction": "What's the way to activate venv on Windows?",
+    "output": "You can use: env\\Scripts\\activate"
+  },
+  {
+    "instruction": "What's the way to extract a tar.gz file?",
+    "output": "You can use: tar -xzf archive.tar.gz"
+  },
+  {
+    "instruction": "What's the way to create a Python virtual environment?",
+    "output": "You can use: python -m venv env"
+  },
+  {
+    "instruction": "What's the way to search only whole words?",
+    "output": "You can use: grep -w 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to list hidden files?",
+    "output": "You can use: ls -a"
+  },
+  {
+    "instruction": "What's the way to extract to a specific directory?",
+    "output": "You can use: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "What's the way to push changes to origin?",
+    "output": "You can use: git push origin <branch>"
+  },
+  {
+    "instruction": "What's the way to see the commit history?",
+    "output": "You can use: git log"
+  },
+  {
+    "instruction": "What's the way to extract a tar.gz file?",
+    "output": "You can use: tar -xzf archive.tar.gz"
+  },
+  {
+    "instruction": "What's the way to extract to a specific directory?",
+    "output": "You can use: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "What's the way to activate venv on Windows?",
+    "output": "You can use: env\\Scripts\\activate"
+  },
+  {
+    "instruction": "What's the way to search only whole words?",
+    "output": "You can use: grep -w 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to check Python version?",
+    "output": "You can use: python --version"
+  },
+  {
+    "instruction": "What's the way to show line numbers in results?",
+    "output": "You can use: grep -n 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to search only whole words?",
+    "output": "You can use: grep -w 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to initialize a new Git repository?",
+    "output": "You can use: git init"
+  },
+  {
+    "instruction": "What's the way to deactivate a virtual environment?",
+    "output": "You can use: deactivate"
+  },
+  {
+    "instruction": "What's the way to extract a tar.gz file?",
+    "output": "You can use: tar -xzf archive.tar.gz"
+  },
+  {
+    "instruction": "What's the way to activate venv on Linux?",
+    "output": "You can use: source env/bin/activate"
+  },
+  {
+    "instruction": "What's the way to delete a file?",
+    "output": "You can use: rm file.txt"
+  },
+  {
+    "instruction": "What's the way to list hidden files?",
+    "output": "You can use: ls -a"
+  },
+  {
+    "instruction": "What's the way to check Python version?",
+    "output": "You can use: python --version"
+  },
+  {
+    "instruction": "What's the way to extract a tar.gz file?",
+    "output": "You can use: tar -xzf archive.tar.gz"
+  },
+  {
+    "instruction": "What's the way to stage changes for commit?",
+    "output": "You can use: git add <file>"
+  },
+  {
+    "instruction": "What's the way to show line numbers in results?",
+    "output": "You can use: grep -n 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to change directory?",
+    "output": "You can use: cd folder"
+  },
+  {
+    "instruction": "What's the way to change directory?",
+    "output": "You can use: cd folder"
+  },
+  {
+    "instruction": "What's the way to create a Python virtual environment?",
+    "output": "You can use: python -m venv env"
+  },
+  {
+    "instruction": "What's the way to create a Python virtual environment?",
+    "output": "You can use: python -m venv env"
+  },
+  {
+    "instruction": "What's the way to copy a file?",
+    "output": "You can use: cp source.txt dest.txt"
+  },
+  {
+    "instruction": "What's the way to show line numbers in results?",
+    "output": "You can use: grep -n 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to see the commit history?",
+    "output": "You can use: git log"
+  },
+  {
+    "instruction": "What's the way to check Python version?",
+    "output": "You can use: python --version"
+  },
+  {
+    "instruction": "What's the way to create a new branch?",
+    "output": "You can use: git branch <branch-name>"
+  },
+  {
+    "instruction": "What's the way to extract to a specific directory?",
+    "output": "You can use: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "What's the way to stage changes for commit?",
+    "output": "You can use: git add <file>"
+  },
+  {
+    "instruction": "What's the way to create a new branch?",
+    "output": "You can use: git branch <branch-name>"
+  },
+  {
+    "instruction": "What's the way to check Python version?",
+    "output": "You can use: python --version"
+  },
+  {
+    "instruction": "What's the way to extract to a specific directory?",
+    "output": "You can use: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "What's the way to list all files?",
+    "output": "You can use: ls"
+  },
+  {
+    "instruction": "What's the way to deactivate a virtual environment?",
+    "output": "You can use: deactivate"
+  },
+  {
+    "instruction": "What's the way to create a directory?",
+    "output": "You can use: mkdir folder"
+  },
+  {
+    "instruction": "What's the way to create a directory?",
+    "output": "You can use: mkdir folder"
+  },
+  {
+    "instruction": "What's the way to deactivate a virtual environment?",
+    "output": "You can use: deactivate"
+  },
+  {
+    "instruction": "What's the way to chain multiple commands?",
+    "output": "You can use: command1 && command2"
+  },
+  {
+    "instruction": "What's the way to commit staged changes?",
+    "output": "You can use: git commit -m 'message'"
+  },
+  {
+    "instruction": "What's the way to create a directory?",
+    "output": "You can use: mkdir folder"
+  },
+  {
+    "instruction": "What's the way to create a directory?",
+    "output": "You can use: mkdir folder"
+  },
+  {
+    "instruction": "What's the way to extract to a specific directory?",
+    "output": "You can use: tar -xzf archive.tar.gz -C /target/dir"
+  },
+  {
+    "instruction": "What's the way to move a file?",
+    "output": "You can use: mv file.txt folder/"
+  },
+  {
+    "instruction": "What's the way to undo the last commit?",
+    "output": "You can use: git reset --soft HEAD~1"
+  },
+  {
+    "instruction": "What's the way to switch branches?",
+    "output": "You can use: git checkout <branch-name>"
+  },
+  {
+    "instruction": "What's the way to commit staged changes?",
+    "output": "You can use: git commit -m 'message'"
+  },
+  {
+    "instruction": "What's the way to list contents of tar?",
+    "output": "You can use: tar -tf archive.tar.gz"
+  },
+  {
+    "instruction": "What's the way to create a Python virtual environment?",
+    "output": "You can use: python -m venv env"
+  },
+  {
+    "instruction": "What's the way to push changes to origin?",
+    "output": "You can use: git push origin <branch>"
+  },
+  {
+    "instruction": "What's the way to push changes to origin?",
+    "output": "You can use: git push origin <branch>"
+  },
+  {
+    "instruction": "What's the way to ignore case in search?",
+    "output": "You can use: grep -i 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to compress a folder with tar?",
+    "output": "You can use: tar -czf archive.tar.gz folder/"
+  },
+  {
+    "instruction": "What's the way to search recursively?",
+    "output": "You can use: grep -r 'pattern' ."
+  },
+  {
+    "instruction": "What's the way to change directory?",
+    "output": "You can use: cd folder"
+  },
+  {
+    "instruction": "What's the way to switch branches?",
+    "output": "You can use: git checkout <branch-name>"
+  },
+  {
+    "instruction": "What's the way to check Python version?",
+    "output": "You can use: python --version"
+  },
+  {
+    "instruction": "What's the way to activate venv on Windows?",
+    "output": "You can use: env\\Scripts\\activate"
+  },
+  {
+    "instruction": "What's the way to search recursively?",
+    "output": "You can use: grep -r 'pattern' ."
+  },
+  {
+    "instruction": "What's the way to activate venv on Linux?",
+    "output": "You can use: source env/bin/activate"
+  },
+  {
+    "instruction": "What's the way to delete a file?",
+    "output": "You can use: rm file.txt"
+  },
+  {
+    "instruction": "What's the way to search only whole words?",
+    "output": "You can use: grep -w 'pattern' file.txt"
+  },
+  {
+    "instruction": "What's the way to search recursively?",
+    "output": "You can use: grep -r 'pattern' ."
+  },
+  {
+    "instruction": "What's the way to ignore case in search?",
+    "output": "You can use: grep -i 'pattern' file.txt"
+  }
+]

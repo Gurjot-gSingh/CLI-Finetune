@@ -1,0 +1,4 @@
+{"step": "Open the Terminal app"}
+{"step": "Type \"ps aux | grep [process ID]\""}
+{"step": "Find the process ID in the output"}
+{"step": "Type \"kill PID\"\n\nThat's it! Your assistant has successfully killed the specified process by PID."}
