@@ -1,0 +1,311 @@
+[
+  {
+    "question": "How do you create a new Git branch and switch to it?",
+    "answer": "Use the command 'git checkout -b branch_name' to create a new branch and switch to it."
+  },
+  {
+    "question": "How can you list all files including hidden ones in Bash?",
+    "answer": "Use 'ls -a' to list all files including hidden files."
+  },
+  {
+    "question": "What command is used to compress files using gzip?",
+    "answer": "Use 'gzip filename' to compress a file with gzip."
+  },
+  {
+    "question": "How do you search for a pattern in a file using grep?",
+    "answer": "Use 'grep pattern filename' to search for the pattern in the file."
+  },
+  {
+    "question": "How can you create a virtual environment with venv in Python?",
+    "answer": "Use 'python -m venv env_name' to create a virtual environment named 'env_name'."
+  },
+  {
+    "question": "How do you switch to a different directory in Bash?",
+    "answer": "Use 'cd directory_path' to change to the specified directory."
+  },
+  {
+    "question": "How do you display the contents of a text file in the terminal?",
+    "answer": "Use 'cat filename' to display the contents of the file."
+  },
+  {
+    "question": "How do you list the contents of a tar archive?",
+    "answer": "Use 'tar -tf archive.tar' to list the contents of a tar archive."
+  },
+  {
+    "question": "How can you recursively search for a pattern in all files of a directory?",
+    "answer": "Use 'grep -r pattern directory/' to recursively search for the pattern."
+  },
+  {
+    "question": "How do you remove a directory and its contents in Bash?",
+    "answer": "Use 'rm -rf directory_name' to forcibly remove a directory and its contents."
+  },
+  {
+    "question": "How do you add changes to the staging area in Git?",
+    "answer": "Use 'git add filename' to add a file to the staging area."
+  },
+  {
+    "question": "How to show the commit history in Git?",
+    "answer": "Use 'git log' to display the commit history."
+  },
+  {
+    "question": "How do you extract a gzip compressed file?",
+    "answer": "Use 'gunzip filename.gz' or 'gzip -d filename.gz' to decompress gzip files."
+  },
+  {
+    "question": "What command shows the current directory path in Bash?",
+    "answer": "Use 'pwd' to print the current working directory."
+  },
+  {
+    "question": "How do you set executable permissions to a file in Bash?",
+    "answer": "Use 'chmod +x filename' to add executable permissions."
+  },
+  {
+    "question": "How do you clone a Git repository?",
+    "answer": "Use 'git clone repository_url' to clone a remote repository."
+  },
+  {
+    "question": "How do you check the size of a directory or file?",
+    "answer": "Use 'du -sh directory_or_file' to get the size in human-readable format."
+  },
+  {
+    "question": "How to find files by name in a directory?",
+    "answer": "Use 'find directory/ -name filename' to search files by name."
+  },
+  {
+    "question": "How do you create a tar archive from files or directories?",
+    "answer": "Use 'tar -cf archive.tar file1 file2' to create an archive."
+  },
+  {
+    "question": "How can you deactivate a Python virtual environment?",
+    "answer": "Run 'deactivate' command in the terminal."
+  },
+  {
+    "question": "How to undo the last Git commit but keep changes staged?",
+    "answer": "Use 'git reset --soft HEAD~1' to undo last commit while keeping changes staged."
+  },
+  {
+    "question": "How to display the first 10 lines of a file?",
+    "answer": "Use 'head filename' to display first 10 lines."
+  },
+  {
+    "question": "How to display the last 10 lines of a file?",
+    "answer": "Use 'tail filename' to display last 10 lines."
+  },
+  {
+    "question": "How to view detailed information about files in a directory?",
+    "answer": "Use 'ls -l' for a long listing format with permissions and ownership."
+  },
+  {
+    "question": "How do you check the current Git branch?",
+    "answer": "Use 'git branch' to list branches and highlight current branch."
+  },
+  {
+    "question": "How do you search for a specific word count inside a file?",
+    "answer": "Use 'grep -o word filename | wc -l' to count occurrences of a word."
+  },
+  {
+    "question": "How to create an alias in Bash?",
+    "answer": "Use 'alias name=\"command\"' to create a command shortcut."
+  },
+  {
+    "question": "How do you download files using curl?",
+    "answer": "Use 'curl -O url' to download a file from the internet."
+  },
+  {
+    "question": "How do you compress a directory using gzip and tar?",
+    "answer": "Use 'tar -czf archive.tar.gz directory/' to create compressed archive."
+  },
+  {
+    "question": "How to stage and commit changes in Git in one command?",
+    "answer": "Use 'git commit -am \"commit message\"' to stage and commit tracked files."
+  },
+  {
+    "question": "How to view all running processes?",
+    "answer": "Use 'ps aux' to view all user processes."
+  },
+  {
+    "question": "How do you show disk usage free space?",
+    "answer": "Use 'df -h' to show free disk space in human-readable format."
+  },
+  {
+    "question": "How to update an existing Git branch with latest changes from master?",
+    "answer": "Use 'git checkout branch_name' then 'git merge master' to update branch."
+  },
+  {
+    "question": "How to list files with detailed human-readable sizes?",
+    "answer": "Use 'ls -lh' to list files with sizes like KB, MB."
+  },
+  {
+    "question": "How do you add a new remote repository in Git?",
+    "answer": "Use 'git remote add origin url' to add a remote."
+  },
+  {
+    "question": "How do you display environment variables in Bash?",
+    "answer": "Use 'printenv' or 'env' to list all environment variables."
+  },
+  {
+    "question": "How to rename a file in Bash?",
+    "answer": "Use 'mv oldname newname' to rename or move a file."
+  },
+  {
+    "question": "How to create an empty file?",
+    "answer": "Use 'touch filename' to create an empty file or update timestamp."
+  },
+  {
+    "question": "How to replace text in a file with sed?",
+    "answer": "Use 'sed -i \"s/old_text/new_text/g\" filename' to replace text in-place."
+  },
+  {
+    "question": "How to check the status of files in Git?",
+    "answer": "Use 'git status' to see staged, unstaged, and untracked files."
+  },
+  {
+    "question": "How to push changes to remote Git repository?",
+    "answer": "Use 'git push origin branch_name' to push commits."
+  },
+  {
+    "question": "How to check disk inode usage?",
+    "answer": "Use 'df -i' to check inode usage."
+  },
+  {
+    "question": "How to download a file using wget?",
+    "answer": "Use 'wget url' to download a file."
+  },
+  {
+    "question": "How to view running services?",
+    "answer": "Use 'systemctl list-units --type=service' to list active services."
+  },
+  {
+    "question": "How to create a soft link (symbolic link)?",
+    "answer": "Use 'ln -s target link_name' to create a symlink."
+  },
+  {
+    "question": "How to count lines, words and characters in a file?",
+    "answer": "Use 'wc filename' to count lines, words, and bytes."
+  },
+  {
+    "question": "How to clear the terminal screen?",
+    "answer": "Use 'clear' command."
+  },
+  {
+    "question": "How to set a variable in Bash?",
+    "answer": "Use 'variable_name=value' to set."
+  },
+  {
+    "question": "How to make a file read-only?",
+    "answer": "Use 'chmod 444 filename' to make read-only."
+  },
+  {
+    "question": "How to see open network ports?",
+    "answer": "Use 'netstat -tuln' or 'ss -tuln' to list open ports."
+  },
+  {
+    "question": "How to find process by name?",
+    "answer": "Use 'pgrep process_name' to get process IDs."
+  },
+  {
+    "question": "How to kill a process by PID?",
+    "answer": "Use 'kill PID' to terminate a process."
+  },
+  {
+    "question": "How to check current running kernel version?",
+    "answer": "Use 'uname -r' to show kernel version."
+  },
+  {
+    "question": "How to split output into pages?",
+    "answer": "Use 'less' or 'more' commands for paginated output."
+  },
+  {
+    "question": "How to compare two files?",
+    "answer": "Use 'diff file1 file2' to show line differences."
+  },
+  {
+    "question": "How to get help for a command?",
+    "answer": "Use 'man command' or 'command --help' to get help."
+  },
+  {
+    "question": "How to get the last few logs from a file?",
+    "answer": "Use 'tail -n number filename' to get last lines."
+  },
+  {
+    "question": "How to find your IP address?",
+    "answer": "Use 'ip addr show' or 'ifconfig' commands."
+  },
+  {
+    "question": "How to check memory usage?",
+    "answer": "Use 'free -h' to display memory usage."
+  },
+  {
+    "question": "How to show user who is logged in?",
+    "answer": "Use 'who' to show current users."
+  },
+  {
+    "question": "How to create an archive and compress it in tar.gz?",
+    "answer": "Use 'tar -czvf archive.tar.gz directory/' to create compressed archive."
+  },
+  {
+    "question": "How to find files older than certain days?",
+    "answer": "Use 'find /path -mtime +days' to locate old files."
+  },
+  {
+    "question": "How to check listening services with netstat?",
+    "answer": "Use 'netstat -tulpn' to list listening services and ports."
+  },
+  {
+    "question": "How to schedule a cron job?",
+    "answer": "Edit crontab with 'crontab -e' and add scheduling lines."
+  },
+  {
+    "question": "How to show disk partitions?",
+    "answer": "Use 'lsblk' or 'fdisk -l' to display partitions."
+  },
+  {
+    "question": "How to add a user in Linux?",
+    "answer": "Use 'sudo adduser username' to add a new user."
+  },
+  {
+    "question": "How to check user groups?",
+    "answer": "Use 'groups username' to see group membership."
+  },
+  {
+    "question": "How to view SSH connection attempts?",
+    "answer": "Check '/var/log/auth.log' or '/var/log/secure' depending on distro."
+  },
+  {
+    "question": "How do you list all installed Python packages in a virtual environment?",
+    "answer": "Use 'pip list' inside the activated virtual environment."
+  },
+  {
+    "question": "How to upgrade packages with pip?",
+    "answer": "Use 'pip install --upgrade package_name'."
+  },
+  {
+    "question": "How to remove a package using pip?",
+    "answer": "Use 'pip uninstall package_name'."
+  },
+  {
+    "question": "How to activate a Python virtual environment?",
+    "answer": "Use 'source env_name/bin/activate' on Unix or 'env_name\\Scripts\\activate' on Windows."
+  },
+  {
+    "question": "How to update the package list on Ubuntu?",
+    "answer": "Use 'sudo apt update' to refresh package lists."
+  },
+  {
+    "question": "How to install a package using apt?",
+    "answer": "Use 'sudo apt install package_name' to install."
+  },
+  {
+    "question": "How to remove a package using apt?",
+    "answer": "Use 'sudo apt remove package_name' to uninstall."
+  },
+  {
+    "question": "How do you check open file handles limits?",
+    "answer": "Use 'ulimit -n' to display max open file descriptors."
+  },
+  {
+    "question": "How to monitor live system resource usage?",
+    "answer": "Use 'top' or 'htop' for live process and resource monitoring."
+  }
+]
+
